@@ -12,9 +12,9 @@ export default function Home() {
           </div>
         </div>
         <div style={{display:'flex',gap:'24px'}}>
-          {['Research','Data','Writing','About'].map(link => (
-            <span key={link} style={{fontSize:'13px',color:'rgba(255,255,255,0.5)',cursor:'pointer'}}>{link}</span>
-          ))}
+         {[['Research','/research'],['Data','/data'],['Writing','/writing'],['About','/about']].map(([link,href]) => (
+  <a key={link} href={href} style={{fontSize:'13px',color:'rgba(255,255,255,0.5)',cursor:'pointer',textDecoration:'none'}}>{link}</a>
+))}
         </div>
         <div style={{fontSize:'12px',color:'#7F77DD',border:'0.5px solid #534AB7',padding:'6px 14px',borderRadius:'6px',cursor:'pointer'}}>Connect</div>
       </nav>
