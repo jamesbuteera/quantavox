@@ -32,8 +32,8 @@ export default function Home() {
           Applied economics research, quantitative analysis, and long-form writing on banking, patents, energy, and the institutions that shape our world. By James Buteera.
         </p>
         <div style={{display:'flex',gap:'12px'}}>
-          <button style={{background:'#534AB7',color:'#fff',border:'none',padding:'11px 22px',borderRadius:'8px',fontSize:'13px',fontWeight:'500',cursor:'pointer'}}>Read the research</button>
-          <button style={{background:'transparent',color:'rgba(255,255,255,0.6)',border:'0.5px solid rgba(255,255,255,0.15)',padding:'11px 22px',borderRadius:'8px',fontSize:'13px',cursor:'pointer'}}>Watch on YouTube</button>
+        <a href="/research" style={{background:'#534AB7',color:'#fff',border:'none',padding:'11px 22px',borderRadius:'8px',fontSize:'13px',fontWeight:'500',cursor:'pointer',textDecoration:'none'}}>Read the research</a>
+<a href="https://www.youtube.com/@QuantavoxVeravoxa" target="_blank" style={{background:'transparent',color:'rgba(255,255,255,0.6)',border:'0.5px solid rgba(255,255,255,0.15)',padding:'11px 22px',borderRadius:'8px',fontSize:'13px',cursor:'pointer',textDecoration:'none'}}>Watch on YouTube</a>
         </div>
       </section>
 
